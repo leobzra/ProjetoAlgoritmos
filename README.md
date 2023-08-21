@@ -1,5 +1,5 @@
 # Projeto Algoritmos - Algoritmo de Prim
-## CIN UFPE
+## Centro de Informática - UFPE
 ### Leonardo Bezerra de Oliveira  
 #### Linguagem de programação pricipal: Python
 #### Base de dados utilizada:
