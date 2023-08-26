@@ -8,3 +8,7 @@ O Algoritmo de Prim que é um algoritmo guloso (greedy algorithm) empregado para
 
 Planejamento
 21/08 criar estrutura inicial, buscar base de dados, organizar basicamente o github.
+22/08 organizar o código do algoritmo de prim
+23/08 definir a base de dados que será utilizada
+24/08 - 
+25/08 
