@@ -1,3 +1,12 @@
+import pandas as pd
+
+url = "https://www.inf.pucrs.br/~danielc/peng1a/outros/distancias.xls"
+df = pd.read_excel(url)
+
+vertices = list(df.columns)
+
+graph = {vertex: {} for vertex in vertices}
+
 def prim(graph):
     start_vertex = vertices[0]
     visited = {vertex: False for vertex in vertices}
