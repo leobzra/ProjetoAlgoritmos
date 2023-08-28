@@ -1,7 +1,9 @@
 import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
 
-file_path = 'distancias.xls'
-df = pd.read_excel(file_path, header=None, skiprows=2) 
+file_path = 'distancias.xls' 
+df = pd.read_excel(file_path, header=None, skiprows=2)  
 
 vertices = df.iloc[:, 0].tolist()
 
@@ -23,8 +25,6 @@ num_vertices = len(graph)
 num_arestas = sum(len(neighbors) for neighbors in graph.values())
 print(f"Número de vértices no Grafo: {num_vertices}")
 print(f"Número de arestas no Grafo: {num_arestas}")
-
-
 
 def prim(graph):
     start_vertex = vertices[0]
@@ -63,6 +63,10 @@ def find_min_vertex(distances, visited):
 
     return min_vertex
 
+G = nx.Graph()
+for vertex, neighbors in graph.items():
+    for neighbor, weight in neighbors.items():
+        G.add_edge(vertex, neighbor, weight=weight)
 
 minimum_spanning_tree = prim(graph)
 
@@ -71,8 +75,18 @@ for vertex, neighbors in minimum_spanning_tree.items():
     for neighbor, weight in neighbors.items():
         print(f"{vertex} - {neighbor}: {weight}")
 
-
 num_vertices = len(minimum_spanning_tree)
 num_arestas = sum(len(neighbors) for neighbors in minimum_spanning_tree.values()) // 2
 print(f"Número de vértices na Árvore Geradora Mínima: {num_vertices}")
 print(f"Número de arestas na Árvore Geradora Mínima: {num_arestas}")
+
+G = nx.Graph()
+for vertex, neighbors in graph.items():
+    for neighbor, weight in neighbors.items():
+        G.add_edge(vertex, neighbor, weight=weight)
+
+pos = nx.spring_layout(G) 
+nx.draw(G, pos, with_labels=True, font_weight='bold')
+edge_labels = {(u, v): d['weight'] for u, v, d in G.edges(data=True)}
+nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
+plt.show()
