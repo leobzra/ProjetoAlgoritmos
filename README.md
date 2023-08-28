@@ -1,9 +1,9 @@
-# Projeto Algoritmos - Algoritmo de Prim
+# Projeto Algoritmos e Estrutura de dados
 ## Centro de Informática - UFPE
 ### Leonardo Bezerra de Oliveira  
 #### Linguagem de programação pricipal: Python
 #### Base de dados utilizada: https://www.inf.pucrs.br/~danielc/peng1a/outros/distancias.xls
-##### Plotagem gráfica: Biblioteca Pandas
+
 O Algoritmo de Prim que é um algoritmo guloso (greedy algorithm) empregado para encontrar uma árvore geradora mínima (minimal spanning tree) num grafo conectado, valorado e não direcionado.
 
 Planejamento
@@ -25,6 +25,16 @@ Planejamento
 
 Diante da minha escolha do Algoritmo de Prim para realização desse projeto, tentei buscar uma base de dados que fizesse sentido para mim tendo em vista a utilização desse algoritmo. Pensando bastante nesse assunto, acabei tendo a ideia de utilizar a distância entre países, estados, cidades, por ser algo mais palpável, utilizaria as distâncias como os pesos e os nomes das cidades como os vértices para criar o grafo baseado nesse algoritmo.
 A base de dados utilizada conta com a distância rodoviária entre algumas das principais cidades brasileiras, como é o caso por exemplo da distância entre Anápolis, a cidade do estado de Goiás e a cidade de Campinas em São Paulo.
+
+Bibliotecas utilizadas. 
+Pandas, <https://pandas.pydata.org/>;
+NetworkX <https://networkx.org/>
+Matplotlib <https://matplotlib.org/>
+
+Apps utilizados.
+Gephi para gerar interface mais visualizável.
+<https://gephi.org/>
+
 
 ## Implementação
 
@@ -67,6 +77,12 @@ Output grafo árvore mínima:
 <img src="/assets/output4.png">
 
 
+Imagem dos grafos
 
+Grafo gerado no código: 
+<img src="/assets/grafo1.png">
+
+Grafo no software Gephi: 
+<img src="/assets/grafo2.png">
 
 
