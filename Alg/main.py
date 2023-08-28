@@ -7,6 +7,13 @@ vertices = list(df.columns)
 
 graph = {vertex: {} for vertex in vertices}
 
+for i, vertex1 in enumerate(vertices):
+    for j, vertex2 in enumerate(vertices):
+        if j > i:
+            distance = df.at[i, j]
+            graph[vertex1][vertex2] = distance
+            graph[vertex2][vertex1] = distance
+
 def prim(graph):
     start_vertex = vertices[0]
     visited = {vertex: False for vertex in vertices}
