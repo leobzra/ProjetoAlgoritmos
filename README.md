@@ -7,6 +7,13 @@
 #### Base de dados utilizada: https://www.inf.pucrs.br/~danielc/peng1a/outros/distancias.xls
 
 O Algoritmo de Prim que é um algoritmo guloso (greedy algorithm) empregado para encontrar uma árvore geradora mínima (minimal spanning tree) num grafo conectado, valorado e não direcionado.
+Com base nisso o objetivo do projeto é criar um algoritmo para geração de um grafo utilizando uma base de dados pública.
+
+## Resumo
+Diante da minha escolha do Algoritmo de Prim para realização desse projeto, tentei buscar uma base de dados que fizesse sentido para mim tendo em vista a utilização desse algoritmo. Pensando bastante nesse assunto, acabei tendo a ideia de utilizar a distância entre países, estados, cidades, por ser algo mais palpável, utilizaria as distâncias como os pesos e os nomes das cidades como os vértices para criar o grafo baseado nesse algoritmo.
+A base de dados utilizada conta com a distância rodoviária entre algumas das principais cidades brasileiras, como é o caso por exemplo da distância entre Anápolis, a cidade do estado de Goiás e a cidade de Campinas em São Paulo.
+
+Ao início do projeto foi criado um planejamento, para ser usado de base para o desenvolvimento desse projeto.
 
 Planejamento
 21/08 criar estrutura inicial, buscar base de dados, organizar basicamente o github.
@@ -22,11 +29,6 @@ Planejamento
 26/07 começar a organizar os dados do relatório
 
 27/07 entrega
-
-## Resumo
-
-Diante da minha escolha do Algoritmo de Prim para realização desse projeto, tentei buscar uma base de dados que fizesse sentido para mim tendo em vista a utilização desse algoritmo. Pensando bastante nesse assunto, acabei tendo a ideia de utilizar a distância entre países, estados, cidades, por ser algo mais palpável, utilizaria as distâncias como os pesos e os nomes das cidades como os vértices para criar o grafo baseado nesse algoritmo.
-A base de dados utilizada conta com a distância rodoviária entre algumas das principais cidades brasileiras, como é o caso por exemplo da distância entre Anápolis, a cidade do estado de Goiás e a cidade de Campinas em São Paulo.
 
 Bibliotecas utilizadas. 
 Pandas, <https://pandas.pydata.org/>;
