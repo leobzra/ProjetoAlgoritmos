@@ -83,6 +83,6 @@ Grafo gerado no código:
 <img src="/assets/grafo1.png">
 
 Grafo no software Gephi: 
-<img src="/assets/grafo2.png">
+<img src="/assets/grafo.png">
 
 
