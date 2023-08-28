@@ -21,10 +21,12 @@ Planejamento
 
 27/07 entrega
 
+## Resumo
+
 Diante da minha escolha do Algoritmo de Prim para realização desse projeto, tentei buscar uma base de dados que fizesse sentido para mim tendo em vista a utilização desse algoritmo. Pensando bastante nesse assunto, acabei tendo a ideia de utilizar a distância entre países, estados, cidades, por ser algo mais palpável, utilizaria as distâncias como os pesos e os nomes das cidades como os vértices para criar o grafo baseado nesse algoritmo.
 A base de dados utilizada conta com a distância rodoviária entre algumas das principais cidades brasileiras, como é o caso por exemplo da distância entre Anápolis, a cidade do estado de Goiás e a cidade de Campinas em São Paulo.
 
-
+## Implementação
 
 A implementação se inicia com a chamada das bibliotecas utilizadas, pandas, networkx e matplotlib.
 Implementação:
@@ -51,6 +53,18 @@ Criação do grafo final do NetworkX, salvando o grafo como arquivo:
 <img src="/assets/img7.png">
 
 
+## Conclusão
+
+Output grafo geral;
+<img src="/assets/output1.png">
+
+<img src= "/assets/output2.png">
+
+Output grafo árvore mínima:
+
+<img src="/assets/output3.png">
+
+<img src="/assets/output4.png">
 
 
 
