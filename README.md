@@ -8,11 +8,17 @@ O Algoritmo de Prim que é um algoritmo guloso (greedy algorithm) empregado para
 
 Planejamento
 21/08 criar estrutura inicial, buscar base de dados, organizar basicamente o github.
+
 22/08 organizar o código do algoritmo de prim
+
 23/08 definir a base de dados que será utilizada
+
 24/08 - 
+
 25/08 iniciar ligação base de dados, concluir alg prim
+
 26/07 começar a organizar os dados do relatório
+
 27/07 entrega
 
 Diante da minha escolha do Algoritmo de Prim para realização desse projeto, tentei buscar uma base de dados que fizesse sentido para mim tendo em vista a utilização desse algoritmo. Pensando bastante nesse assunto, acabei tendo a ideia de utilizar a distância entre países, estados, cidades, por ser algo mais palpável, utilizaria as distâncias como os pesos e os nomes das cidades como os vértices para criar o grafo baseado nesse algoritmo.
