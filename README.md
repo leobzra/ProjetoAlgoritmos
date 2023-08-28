@@ -29,7 +29,7 @@ A base de dados utilizada conta com a distância rodoviária entre algumas das p
 A implementação se inicia com a chamada das bibliotecas utilizadas, pandas, networkx e matplotlib.
 Implementação:
 import, início..
-<img src="/assets/img/img1.png">
+<img src="/assets/img1.png">
 
 
 
