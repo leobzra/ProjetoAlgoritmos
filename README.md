@@ -1,5 +1,9 @@
 # Projeto Algoritmos e Estrutura de dados
+## Universidade Federal de Pernambuco
 ## Centro de Informática - UFPE
+## Docente: Sérgio Ricardo de Melo Queiroz 
+## Discente: Leonardo Bezerra de Oliveira
+
 ### Projeto Grafo - Algoritmo de Prim 
 #### Base de dados utilizada: https://www.inf.pucrs.br/~danielc/peng1a/outros/distancias.xls
 
