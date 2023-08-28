@@ -1,4 +1,6 @@
 # Universidade Federal de Pernambuco
+<img src="/assets/logo ufpe.png">
+
 ## Centro de Informática - UFPE
 ### Docente: Sérgio Ricardo de Melo Queiroz 
 ### Discente: Leonardo Bezerra de Oliveira
