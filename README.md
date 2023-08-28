@@ -1,5 +1,4 @@
-# Projeto Algoritmos e Estrutura de dados
-## Universidade Federal de Pernambuco
+# Universidade Federal de Pernambuco
 ## Centro de Informática - UFPE
 ### Docente: Sérgio Ricardo de Melo Queiroz 
 ### Discente: Leonardo Bezerra de Oliveira
