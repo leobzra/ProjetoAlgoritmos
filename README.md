@@ -28,8 +28,29 @@ A base de dados utilizada conta com a distância rodoviária entre algumas das p
 
 A implementação se inicia com a chamada das bibliotecas utilizadas, pandas, networkx e matplotlib.
 Implementação:
-import, início..
+import, início, utilização do pandas para ligar o código com a base de dados.
 <img src="/assets/img1.png">
+
+Preenchimento do grafo, alterações
+
+<img src="/assets/img2.png">
+
+print número de vértices e arestar grafo geral
+<img src="/assets/img3.png">
+
+algoritmo de prim 
+<img src="/assets/img4.png">
+
+gerar árvore mínima:
+<img src="/assets/img5.png">
+
+Criar grafo no NetworkX, printar árvore mínima e distância, print da quantidade de vértices e arestas da árvore mínima:
+<img src="/assets/img6.png">
+
+Criação do grafo final do NetworkX, salvando o grafo como arquivo:
+<img src="/assets/img7.png">
+
+
 
 
 
